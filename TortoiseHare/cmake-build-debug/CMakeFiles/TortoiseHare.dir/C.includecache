@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/GrayOwl/Github Repos/CS288/TortoiseHare/main.c
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
+unistd.h
+-
+
